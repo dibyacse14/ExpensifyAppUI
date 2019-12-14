@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public rightSidenav: any;
   title = 'expensify-app';
+  mySideNavList: string[] = [];
+  opened: boolean;
+
+  shouldRun = true;
 }
